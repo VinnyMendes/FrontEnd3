@@ -1,0 +1,15 @@
+#ednaldo{
+    background-color: #adadad;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ednaldo h2{
+    margin-bottom: 20px;
+}
+#ednaldo ul{
+    list-style-type: none;
+    text-align: center;
+}
