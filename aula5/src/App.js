@@ -11,7 +11,7 @@ function App() {
           <p>Ó só 6 tão tudo cercado</p>
           <button className="button">Botão que não faz nada</button>
         </Banner>
-        <Footer nome="Nome da empresa"></Footer>
+        <Footer nome="Fans"></Footer>
       </div>
     );
 }
