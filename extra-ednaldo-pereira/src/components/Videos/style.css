@@ -1,5 +1,6 @@
 #videos{
-    margin: 60px 0px;
+    padding: 60px 0px;
+    background-color: rgb(29, 29, 29);
 }
 #videos .grid{
     display: grid;

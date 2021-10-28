@@ -7,6 +7,6 @@ export default function Video(props){
                     <iframe src={props.url} title={props.title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <h3>{props.title}</h3>
-                </div>
+        </div>
     )
 }
