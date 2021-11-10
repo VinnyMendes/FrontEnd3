@@ -1,6 +1,9 @@
 import { Component } from 'react';
 import './App.css';
 import Increment from './components/Increment';
+import Clock from './components/Clock'
+import Cronometro from './components/Cronometro';
+
 
 export default class App extends Component {
   constructor(){
@@ -53,7 +56,6 @@ export default class App extends Component {
         produto: "Pão de Alho",
         foto: "https://olhonopreco.com.br/media/1696-pao-de-alho-santa-massa-tradicional-400g-md.jpg"
       }]
-
     }
   }
 
@@ -125,6 +127,12 @@ export default class App extends Component {
                 )
               })}
           </div>
+        </div>
+        <div className="d-flex flex-column align-items-center justify-content-center">
+
+          {true && <Clock/>}
+
+          <Cronometro/>
         </div>
       </>
     )
