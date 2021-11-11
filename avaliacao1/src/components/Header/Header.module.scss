@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-around;
     padding: 1rem 0;
-    position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 0 1px 20px rgb(218, 218, 218);
@@ -25,4 +24,19 @@
             }
         }
     }
+}
+
+@media (max-width: 750px ){
+    .header{
+        flex-direction: column;
+        .botoes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a{
+                margin: 0;
+            }
+        }
+    }
+
 }
