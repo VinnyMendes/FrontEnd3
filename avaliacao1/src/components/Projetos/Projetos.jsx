@@ -7,19 +7,19 @@ export default function Projetos(){
         {
             id: "vinnyflix",
             nome: 'VinnyFlix',
-            desc: 'formulário da empresa vinnyflix',
+            desc: 'Formulário feito para a inscrição no site VinnyFlix',
             link: 'https://vinnymendes.github.io/FrontEnd/checkpoint/'
         },
         {
             id: "things2do",
             nome: 'Things 2 Do',
-            desc: 'tem que escrever vinny',
+            desc: 'Site para servir como uma lista de afazeres',
             link: 'https://vinnymendes.github.io/Things2Do/'
         },
         {
             id: "movieCards",
             nome: 'MovieCards',
-            desc: 'é de por filme',
+            desc: 'Site para fazer uma lista de filmes',
             link: 'https://vinnymendes.github.io/CheckpointFront/'
         },
     ]

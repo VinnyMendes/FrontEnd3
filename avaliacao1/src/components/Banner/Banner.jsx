@@ -7,7 +7,7 @@ export default function Banner(){
                 <img src="./images/ViniciusMendes.jpeg" alt="foto do vinícius" className={style.foto} />
                 <div className={style.texto}>
                     <h2> Vinícius Mendes da Silva</h2>
-                    <p>Sou um programador apaixonado e em busca da entrada no mercado de trabalho. Aqui estão alguns dos projetos que já fiz até hoje</p>
+                    <p>Sou um programador apaixonado e em busca da entrada no mercado de trabalho. Aqui estão alguns dos projetos que já fiz até hoje.</p>
                 </div>
             </div>
             <div className={style.coluna}></div>
